@@ -91,6 +91,8 @@ babynames %>%
   group_by(sex, year) %>% 
   mutate(rank = min_rank(n))
 
+#konec cvičení
+
   
 
 
